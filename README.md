@@ -1,2 +1,1 @@
-# cineflow
-Portfolio site cineflow for a graphic designer
+This repo consists code for a portfolio site cineflow of a graphic designer.
