@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face{
+  font-family: "Anthonio Script";
+  src: url("/font/AnthonioScript.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: normal;
+}
+
+@font-face {
+  font-family: "Impact";
+  src: url("/font/Impact.ttf") format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: normal;
+}
+
+.font-anthonio{
+  font-family: "Anthonio Script";
+}
+
+.font-impact{
+  font-family: "Impact";
+}
