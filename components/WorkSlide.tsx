@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function WorkSlide() {
@@ -9,22 +10,33 @@ function WorkSlide() {
       </h1>
 
       {/* Subtitle */}
-      <h2 className="text-[6vw] sm:text-4xl md:text-5xl font-extrabold">
+      <h2 className="text-[6vw] sm:text-4xl md:text-5xl font-extrabold font-impact">
         LATEST PROJECTS
       </h2>
 
       {/* Videos */}
       <div className="flex flex-col justify-center items-center w-full sm:w-[80%] md:w-[60%] p-4 sm:p-8 md:p-12 gap-8 sm:gap-10 md:gap-12 opacity-80">
-        {["video1.mp4", "video5.mp4", "video4.mp4"].map((file, idx) => (
-          <video
+        {[
+          "1K_u1wVkZbqEQvJH5XVplw7azlIazr7Ct",
+          "1qi6InGlg4ZJUNk0m6e-XdkQNfxELlvwG",
+          "1p7sn_TBL6GRuKaWErfuigUUgF2pCcM7E",
+        ].map((fileId, idx) => (
+          <iframe
             key={idx}
-            src={`/videos/${file}`}
-            controls
-            className="w-full h-auto sm:h-[40vh] rounded-xl shadow-xl"
-            about="My latest project"
+            src={`https://drive.google.com/file/d/${fileId}/preview`}
+            width="100%"
+            height="360"
+            allow="autoplay"
+            className="rounded-xl shadow-xl"
           />
         ))}
       </div>
+      <Link
+      href="https://drive.google.com/drive/folders/11Wtb-QrK727ML7CqSTjZ4-nhnaUPzByz"
+        className="p-2 bg-white/20 rounded-xl hover:translate-y-[-2px] transition text-sm sm:text-base md:text-lg"
+      >
+        Explore Other Projects
+      </Link>
     </section>
   );
 }

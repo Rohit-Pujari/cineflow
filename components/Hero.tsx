@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="relative mt-24 w-full px-4 md:px-8 lg:px-12 max-w-screen-xl mx-auto min-h-[70vh]">
+    <section className="relative mt-24 w-full px-4 md:px-8 lg:px-12 max-w-screen-xl mx-auto min-h-[70vh] font-impact">
       {/* Background Image */}
       <div className="absolute top-0 right-0 z-0 sm:block">
         <img
@@ -20,7 +20,7 @@ function Hero() {
           <span>MOMENTS.</span>
         </section>
 
-        <section className="mt-6 sm:mt-8 text-center text-sm sm:text-base md:text-lg text-white/80 leading-relaxed max-w-4xl font-sans mx-auto">
+        <section className="mt-6 sm:mt-8 text-center text-sm sm:text-base md:text-lg text-white leading-relaxed max-w-4xl mx-auto">
           <p>
             As an editor I help agencies, filmmakers, and creatives in achieving
             their goals. Tools like video editing, sound design, and color

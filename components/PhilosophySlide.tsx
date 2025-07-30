@@ -2,7 +2,7 @@ import React from "react";
 
 function PhilosophySlide() {
   return (
-    <section className="flex flex-col justify-center items-center gap-6 px-4 sm:px-8 text-center min-h-[80vh] max-w-screen-xl mx-auto">
+    <section className="flex flex-col justify-center items-center gap-6 px-4 sm:px-8 text-center min-h-[80vh] max-w-screen-xl mx-auto font-impact">
       <h1 className="text-[10vw] sm:text-7xl md:text-8xl font-anthonio opacity-70">
         Philosophy
       </h1>
