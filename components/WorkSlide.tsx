@@ -33,7 +33,7 @@ function WorkSlide() {
       </div>
       <Link
       href="https://drive.google.com/drive/folders/11Wtb-QrK727ML7CqSTjZ4-nhnaUPzByz"
-        className="p-2 bg-white/20 rounded-xl hover:translate-y-[-2px] transition text-sm sm:text-base md:text-lg"
+        className="p-2 bg-white/20 rounded-xl hover:translate-y-[-2px] transition text-sm sm:text-base md:text-lg font-poppins"
       >
         Explore Other Projects
       </Link>
